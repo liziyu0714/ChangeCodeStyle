@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChangeCodeStyle"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ChangeCodeStyle" Height="450" Width="800">
     <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="49,36,0,0" TextWrapping="Wrap" Text="更改代码风格" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <RichTextBox x:Name="textBox" HorizontalAlignment="Left" Margin="28,69,0,0" VerticalAlignment="Top" Width="233" FontSize="16" Height="333"/>
+        <CheckBox x:Name="checkBox" Content="括号单独占一行" HorizontalAlignment="Left" Margin="273,70,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Button x:Name="button" Content="转换" HorizontalAlignment="Left" Margin="281,372,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" Width="114"/>
+        <RichTextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="419,66,0,0"  VerticalAlignment="Top" Width="233" FontSize="16" Height="333"/>
 
     </Grid>
 </Window>
